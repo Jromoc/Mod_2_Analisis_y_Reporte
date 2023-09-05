@@ -28,3 +28,33 @@ El dataset "iris.data" contiene 5 columnas y 150 filas. Los nombres de las colum
 - petal width
 - class
 
+
+## Arboles
+Se crearon 3 arboles, dos para hacer el entrenamiento y el pruebas, y un tercero donde se busca la validacion. Cada uno de los dos primeros arboles cuenta con unos parametros disntitnos con la busqueda del mejor resultado.
+
+myTree1 -- criterion = "gini"
+- Accuracy: 0.93
+- F1-score: 0.93
+Matriz de confucion:
+[[6 0 0]
+ [0 4 0]
+ [0 1 4]]
+
+myTree2 -- criterion = "entropy" y max_depth = 3
+- Accuracy: 0.97
+- F1-score: 0.97
+Matriz de confucion:
+ [[10  0  0]
+ [ 0 12  1]
+ [ 0  0  7]]
+
+
+Al momento de incluir los parametros de myTree2, el cual fue con el que se obtuvo mejores resultados no hicieron lo mismo al momento de hacer la validacion, ya que se obtuvieron los mismos resultados que myTree1. Aunque la matriz de confusion si salio un tanto distinta.
+
+myTree_valid -- criterion = "entropy" y max_depth = 3
+- Accuracy: 0.93
+- F1-score: 0.93
+Matriz de confucion:
+[[6 0 0]
+ [0 4 1]
+ [0 0 4]]
