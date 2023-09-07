@@ -3,6 +3,9 @@ Trabajo de:
 Jose Edmundo Romo Castillo
 A01197772
 
+## Descripcion de la problematica
+
+
 ## Descripcion de los modelos
 ### Arbol de Decisiones
 DecisionTreeClassifier es un algoritmo utilizado para el aprendizaje supervisado, el cual se usa para clasificar una serie de datos y poder predecir que rumbo tomaran los datos con respecto a ciertos parametros. La estructura de este modelo se divide en:
@@ -21,6 +24,8 @@ DecisionTreeClassifier es un algoritmo utilizado para el aprendizaje supervisado
 El dataset se obtuvo de los archivos ofrecidos por el modulo Machine Learning de la materia.
 
 ## Descripcion del dataset
+
+
 El dataset "iris.data" contiene 5 columnas y 150 filas. Los nombres de las columnas son:
 - sepal length
 - sepal width
@@ -28,6 +33,9 @@ El dataset "iris.data" contiene 5 columnas y 150 filas. Los nombres de las colum
 - petal width
 - class
 
+*Cantidad de datos*
+*Caracterisitcas*
+*Num de clases*
 
 ## Arboles
 Se crearon 3 arboles, dos para hacer el entrenamiento y el pruebas, y un tercero donde se busca la validacion. Cada uno de los dos primeros arboles cuenta con unos parametros disntitnos con la busqueda del mejor resultado.
