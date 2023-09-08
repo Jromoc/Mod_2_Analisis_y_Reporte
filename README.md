@@ -4,6 +4,7 @@ Jose Edmundo Romo Castillo
 A01197772
 
 ## Descripcion de la problematica
+Se busca crear un modelo que pueda identificar cual tipo de Iris pertence dependiendo de ciertas caracteristicas.
 
 
 ## Descripcion de los modelos
@@ -25,7 +26,6 @@ El dataset se obtuvo de los archivos ofrecidos por el modulo Machine Learning de
 
 ## Descripcion del dataset
 
-
 El dataset "iris.data" contiene 5 columnas y 150 filas. Los nombres de las columnas son:
 - sepal length
 - sepal width
@@ -34,8 +34,17 @@ El dataset "iris.data" contiene 5 columnas y 150 filas. Los nombres de las colum
 - class
 
 *Cantidad de datos*
-*Caracterisitcas*
+La cantidad de registros son 150
+
 *Num de clases*
+Hay 3 clases:
+- Iris-setosa
+- Iris-versicolor
+- Iris-virginica
+
+En este link se encuentra el dataset: https://experiencia21.tec.mx/courses/406127/files/149476499?module_item_id=24950857
+
+
 
 ## Arboles
 Se crearon 3 arboles, dos para hacer el entrenamiento y el pruebas, y un tercero donde se busca la validacion. Cada uno de los dos primeros arboles cuenta con unos parametros disntitnos con la busqueda del mejor resultado.
@@ -57,6 +66,10 @@ Matriz de confucion:
  [ 0  0  7]]
 
 
+### Validacion para escoger el modelo final 
+
+
+## Conclusiones
 Al momento de incluir los parametros de myTree2, el cual fue con el que se obtuvo mejores resultados no hicieron lo mismo al momento de hacer la validacion, ya que se obtuvieron los mismos resultados que myTree1. Aunque la matriz de confusion si salio un tanto distinta.
 
 myTree_valid -- criterion = "entropy" y max_depth = 3
