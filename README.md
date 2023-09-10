@@ -1,11 +1,9 @@
 # Mod_2_Analisis_y_Reporte
-Trabajo de:
-Jose Edmundo Romo Castillo
-A01197772
+Trabajo de: Jose Edmundo Romo Castillo
+Matricula: A01197772
 
 ## Descripcion de la problematica
-Se busca crear un modelo que pueda identificar cual tipo de Iris pertence dependiendo de ciertas caracteristicas.
-
+Se busca crear un modelo que pueda identificar cual tipo de Iris pertence dependiendo de ciertas caracteristicas, y siendo este un problema donde se busca obtener un classificacion para conocer esto se utilizar el algoritmo de DecisionTreeClassifier para ayudar a conocer estos resultados.
 
 ## Descripcion de los modelos
 ### Arbol de Decisiones
@@ -44,8 +42,6 @@ Hay 3 clases:
 
 En este link se encuentra el dataset: https://experiencia21.tec.mx/courses/406127/files/149476499?module_item_id=24950857
 
-
-
 ## Arboles
 Se crearon 3 arboles, dos para hacer el entrenamiento y el pruebas, y un tercero donde se busca la validacion. Cada uno de los dos primeros arboles cuenta con unos parametros disntitnos con la busqueda del mejor resultado.
 
@@ -65,10 +61,7 @@ Matriz de confucion:
  [ 0 12  1]
  [ 0  0  7]]
 
-
 ### Validacion para escoger el modelo final 
-
-
 ## Conclusiones
 Al momento de incluir los parametros de myTree2, el cual fue con el que se obtuvo mejores resultados no hicieron lo mismo al momento de hacer la validacion, ya que se obtuvieron los mismos resultados que myTree1. Aunque la matriz de confusion si salio un tanto distinta.
 
