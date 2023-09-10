@@ -46,26 +46,29 @@ En este link se encuentra el dataset: https://experiencia21.tec.mx/courses/40612
 Se crearon 3 arboles, dos para hacer el entrenamiento y el pruebas, y un tercero donde se busca la validacion. Cada uno de los dos primeros arboles cuenta con unos parametros disntitnos con la busqueda del mejor resultado.
 
 myTree1 -- criterion = "gini"
+- Socre: 0.93 
 - Accuracy: 0.93
 - F1-score: 0.93
 Matriz de confucion:
-[[6 0 0]
- [0 4 0]
- [0 1 4]]
+[[12 0 0]
+ [0 8 1]
+ [0 1 8]]
 
 myTree2 -- criterion = "entropy" y max_depth = 3
-- Accuracy: 0.97
-- F1-score: 0.97
+- Socre: 0.97
+- Accuracy: 0.93
+- F1-score: 0.93
 Matriz de confucion:
- [[10  0  0]
- [ 0 12  1]
- [ 0  0  7]]
+[[12 0 0]
+ [0 8 1]
+ [0 1 8]]
 
 ### Validacion para escoger el modelo final 
 ## Conclusiones
 Al momento de incluir los parametros de myTree2, el cual fue con el que se obtuvo mejores resultados no hicieron lo mismo al momento de hacer la validacion, ya que se obtuvieron los mismos resultados que myTree1. Aunque la matriz de confusion si salio un tanto distinta.
 
 myTree_valid -- criterion = "entropy" y max_depth = 3
+- Socre: 1
 - Accuracy: 0.93
 - F1-score: 0.93
 Matriz de confucion:
